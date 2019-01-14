@@ -1,9 +1,61 @@
 .dogpic {
   margin: 5px 0px 30px 0px;
+  width: 500px;
+  height: 350px;
 }
 
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+input {
+  margin-left: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 25px 80px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  transition: all 0.3s;
+  background: #cb4e4e;
+	color: #fff;
+	box-shadow: 0 -6px #ab3c3c;
+  border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	padding: 0;
+}
+
+.content {
+  min-height: 300px;
 }

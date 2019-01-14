@@ -7,8 +7,8 @@ class DogPic extends Component {
     }
 
     render(){
-        let {url} = this.props;
-        return (<img className='dogpic' src={url} alt=""></img>)
+        let {img} = this.props;
+        return (<img className='dogpic' src={img} alt=""></img>)
     }
 }
 
